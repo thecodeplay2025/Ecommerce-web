@@ -849,7 +849,9 @@ footer .continere .row .links a i{
 
 }
 @media (max-width:800px){
-
+    body{
+        padding-top: 240px;
+    }
     .top_slide h2{
         font-size: 16px;
         padding: 10px 25px;
@@ -915,4 +917,28 @@ footer .continere .row .links a i{
         margin-bottom: 30px;
     }
 
+}
+@media (max-width:400px){
+    
+    header .top_hrader .search_box {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto 0; 
+    }
+    header .top_hrader .search_box select{
+    height: 40px;
+   }
+   header .top_hrader .search_box input{
+    height: 40px;
+    width: 100px;
+   }
+   header .top_hrader .search_box button{
+    height: 40px;
+    width: 35px;
+   }
+   header .top_hrader{
+    
+   }
 }
